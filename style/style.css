@@ -217,7 +217,8 @@ input{
     height: 100%;
     width: 45%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    margin-right: 2%;
     align-items: center;
 }
 .block{
