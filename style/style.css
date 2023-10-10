@@ -83,13 +83,6 @@
     transition: 0.2s;
 }
 
-.hover-img {
-    margin-top: 10px;
-    width: 25px;
-
-    transition: 0.2s;
-}
-
 .hover-me:hover {
     scale: 110%;
 
