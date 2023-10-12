@@ -680,4 +680,16 @@ span {
         margin-top: 5%;
     }
 
+    .next-btn-1 {
+        padding: 10px 35px 10px 35px;
+    }
+
+    .next-btn-2 {
+        padding: 10px 35px 10px 35px;
+    }
+
+    .back-btn {
+        font-size: 23px;
+    }
+
 }
