@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #060606;
+
+}
+.navbar{
+    color: white;
+    height: 10%;
+    width: 100%;
+    
+}
+nav{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+li{
+    list-style: none;
+}
+input{
+    background-color: transparent;
+    border: 2px white solid;
+    height: 30%;
+}
+.nav-input{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hero page */
+
+.hero{
+    width: 100%;
+    height: 90%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/bumi.img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 44px;
+    max-width: 100%;
+    max-height: 90%;
+}
+
+/* second page */
+
+.second{
+    margin: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: #060606;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.second-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20%;
+}
+
+
+.second-img {
+    height: 80%;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    max-height: 80%; 
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    height: 55%;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    height: 45%;
+
+}
+
+.row-1 img:nth-child(1) {
+    width: calc(40%); 
+    max-width: 100%;
+    height: 100%; 
+}
+.row-1 img {
+    width: calc(60%); 
+    max-width: 100%;
+    height: 100%; 
+}
+.row-2 img:nth-child(1) {
+    width: calc(30%); 
+    max-width: 100%;
+    height: auto; 
+}
+.row-2 img {
+    width: calc(35%); 
+    max-width: 100%;
+    height: auto; 
+}
+
+/* third page */
+
+.third{
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url("/third.bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.info-third{
+    width: 100%;
+    max-width: 100%;
+    height: 80%;
+    max-height: 80%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.97) 35%, rgba(255,0,0,0) 100%);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.text-third{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+}
+.third-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 45%;
+    gap: 15%;
+}
+.text-third-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+}
+.left-third{
+    width: 50%;
+    
+}
+.tahun-third{
+    font-size: 1.2rem;
+}
+.info-sampah{
+    font-size: 3rem;
+}
+
+.third-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;  
+    height: 75%;
+    gap: 5%;
+}
+.data-block{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+.info-sisa{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+}
+.percent{
+    margin-left: 2%;
+}
+
+.data-persen{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.data-persen ol{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+
