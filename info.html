@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: black;
+        }
+
+        .hero1 {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title-area {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title-area h1 {
+            color: white;
+            font-size: 52px;
+            font-family: 'Dela Gothic One', cursive;
+        }
+
+        span {
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100;
+        }
+
+        .title-area h2 {
+            color: white;
+            font-size: 48px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero1 img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .images-area {
+            height: 80%;
+            width: 100%;
+        }
+
+        .image-baris-pertama {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img1 {
+            width: 55.7%;
+            height: 100%;
+        }
+
+        .img2 {
+            width: 44%;
+            height: 100%;
+        }
+
+        .image-baris-kedua {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img3 {
+            width: 33.6%;
+            height: 100%;
+        }
+
+        .img4 {
+            width: 39.6%;
+            height: 100%;
+        }
+
+        .img5 {
+            width: 26.45%;
+            height: 100%;
+        }
+
+        .hero2 {
+            height: 100vh;
+            width: 100%;
+            background-image: url('/bg2.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title-2-area {
+            height: 15%;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 22%;
+        }
+
+        .title-2 {
+            color: white;
+            text-decoration: none;
+            font-size: 21px;
+            font-weight: 100;
+            font-family: 'Dela Gothic One', cursive;
+            text-align: center;
+        }
+
+        .data-sampah-area {
+            height: 40%;
+            width: 90%;
+            margin-top: 1%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .persentase-area {
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .persentase-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .persentase-row-1 {
+            width: 30%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 17px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .persentase-row-2 {
+            width: 60%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .persentase-row-2-container-1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .tahun-persentase {
+            color: white;
+            font-family: 'Playfair display';
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 700;
+        }
+
+        .ton-persentase {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 40px;
+        }
+
+        .amount-persentase {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 15px;
+        }
+
+        .persentase-row-3 {
+            width: 40%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 15px;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        .grafik-area {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grafik-area img {
+            width: 70%;
+        }
+
+        .hero3 {
+            height: 100vh;
+            width: 100%;
+            background-image: url('/bg3.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title-3-area {
+            height: 10%;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 14%;
+        }
+
+        .title-3-area h1 {
+            color: white;
+            text-decoration: none;
+            font-size: 45px;
+            font-weight: 100;
+            font-family: 'Dela Gothic One', cursive;
+            text-align: center;
+        }
+
+        .data-plastik-area {
+            height: 40%;
+            width: 90%;
+            margin-top: 2%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content-plastik-1 {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .content-plastik-1 p {
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 19px;
+            font-weight: 100;
+            margin-top: 4%;
+            width: 70%;
+        }
+
+        .content-plastik-1 span {
+            font-weight: 700;
+        }
+
+        .content-plastik-2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .source-plastik {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .source-plastik p {
+            color: white;
+            font-size: 20px;
+            font-weight: 100;
+            font-family: 'Dela Gothic One', cursive;
+            text-align: center;
+        }
+
+        .data-plastik-container {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .data-plastik-1 {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .persentase-plastik-row-1 {
+            width: 70%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 17px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .persentase-plastik-row-2 {
+            width: 60%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .persentase-plastik-row-2-container-1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .tahun-plastik-persentase {
+            color: white;
+            font-family: 'Playfair display';
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 700;
+        }
+
+        .milliar-plastik-persentase {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 40px;
+        }
+
+        .amount-plastik-persentase {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 15px;
+        }
+
+        .persentase-plastik-row-3 {
+            width: 80%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 15px;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        .data-plastik-2 {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .data-plastik-2 p {
+            text-align: start;
+        }
+
+        .persentase-plastik-2-row-1 {
+            width: 75%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 17px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .persentase-plastik-2-row-2 {
+            width: 75%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .persentase-plastik-2-row-2-container-1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+        }
+
+        .ton-2-persentase {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 40px;
+        }
+
+        .amount-2-persentase {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 15px;
+        }
+
+        .persentase-plastik-2-row-3 {
+            width: 75%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Plus Jakarta Sans';
+            font-size: 15px;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        .next-btn-1 {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 20px;
+            background-color: black;
+            padding: 0 15px 4px 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: 100;
+            text-decoration: none;
+            position: absolute;
+            top: 90%;
+            transition: background-color 0.3s ease;
+        }
+
+        .next-btn-1:hover {
+            background-color: rgba(0, 0, 0, 0.642);
+        }
+
+        .next-btn-2 {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 20px;
+            background-color: black;
+            padding: 0 15px 4px 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: 100;
+            text-decoration: none;
+            position: absolute;
+            top: 190%;
+            transition: background-color 0.3s ease;
+        }
+
+        .next-btn-2:hover {
+            background-color: rgba(0, 0, 0, 0.642);
+        }
+
+        .back-btn {
+            color: white;
+            font-family: 'Dela Gothic One';
+            font-size: 20px;
+            background-color: black;
+            padding: 0 15px 4px 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: 100;
+            text-decoration: none;
+            position: absolute;
+            top: 292%;
+            border: 1px solid white;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: rgba(0, 0, 0, 0.642);
+        }
+
+        @media screen and (max-width: 600px) {
+            .title-area h1 {
+                font-size: 30px;
+            }
+
+            .title-area h2 {
+                font-size: 28px;
+            }
+
+            .img1 {
+                display: none;
+            }
+
+            .img2 {
+                width: 100%;
+            }
+
+            .img3 {
+                width: 100%;
+            }
+
+            .img4 {
+                display: none;
+            }
+
+            .img5 {
+                display: none;
+            }
+
+            .title-2-area {
+                margin-top: 0;
+            }
+
+            .title-2 {
+                font-size: 9px;
+            }
+
+            .data-sampah-area {
+                flex-direction: column;
+            }
+
+            .persentase-area {
+                width: 100%;
+            }
+
+            .persentase-row-1 {
+                width: 40%;
+                font-size: 13px;
+            }
+
+            .persentase-row-2 {
+                width: 100%;
+                height: 55%;
+                margin-top: 4%;
+            }
+
+            .tahun-persentase {
+                font-size: 22px;
+            }
+
+            .ton-persentase {
+                font-size: 35px;
+            }
+
+            .persentase-row-3 {
+                width: 60%;
+                font-size: 12px;
+                text-align: center;
+                font-weight: 100;
+                margin-top: 4%;
+            }
+
+            .grafik-area {
+                width: 100%;
+                margin-top: 15%;
+            }
+
+            .grafik-area img {
+                width: 88%;
+            }
+
+            .title-3-area {
+                width: 100%;
+                margin-top: -10%;
+            }
+
+            .title-3-area h1 {
+                color: white;
+                font-size: 20px;
+            }
+
+            .data-plastik-area {
+                flex-direction: column;
+            }
+
+            .data-plastik-container {
+                margin-top: 6%;
+            }
+
+            .content-plastik-1 {
+                width: 100%;
+            }
+
+            .content-plastik-1 p {
+                font-size: 12px;
+                width: 100%;
+                text-align: justify;
+            }
+
+            .content-plastik-2 {
+                width: 100%;
+            }
+
+            .source-plastik p {
+                font-size: 15px;
+                width: 85%;
+                margin-top: 18%;
+            }
+
+            .persentase-plastik-row-1 {
+                width: 90%;
+                font-size: 12px;
+            }
+
+            .persentase-plastik-row-3 {
+                width: 100%;
+                font-size: 10px;
+            }
+
+            .persentase-plastik-2-row-1 {
+                width: 85%;
+                font-size: 12px;
+                margin-top: 15%;
+            }
+
+            .persentase-plastik-2-row-1 p {
+                text-align: justify;
+            }
+
+            .persentase-plastik-2-row-2 {
+                width: 85%;
+                margin-top: 5%;
+            }
+
+            .ton-2-persentase {
+                margin-top: 8%;
+            }
+
+            .amount-2-persentase {
+                font-size: 13px;
+            }
+
+            .persentase-plastik-2-row-3 {
+                width: 85%;
+                font-size: 12px;
+                margin-top: 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="section1"></section>
+    <div class="hero1">
+        <div class="title-area">
+            <h1>Potret Kondisi</h1>
+            <h2><span>Bumi Pertiwi </span>Saat Ini</h2>
+        </div>
+        <div class="images-area">
+            <div class="image-baris-pertama">
+                <div class="img2">
+                    <img src="img2.png" alt="">
+                </div>
+                <div class="img1">
+                    <img src="img1.png" alt="">
+                </div>
+            </div>
+            <div class="image-baris-kedua">
+                <div class="img5">
+                    <img src="img5.png" alt="">
+                </div>
+                <div class="img4">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="img3">
+                    <img src="img3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <a class="next-btn-1" href="#section2">Next</a>
+    </div>
+
+
+    <section id="section2">
+        <div class="hero2">
+            <div class="title-2-area">
+                <p class="title-2">*Berdasarkan data Sistem Informasi Pengelolaan Sampah Nasional <span>(SIPSN)</span>
+                    Kementerian Lingkungan Hidup dan Kehutanan <span>(KLHK)</span></p>
+            </div>
+            <div class="data-sampah-area">
+                <div class="persentase-area">
+                    <div class="persentase-container">
+                        <div class="persentase-row-1">
+                            <p>Volume Timbulan Sampah Di Indonesia</p>
+                        </div>
+                        <div class="persentase-row-2">
+                            <div class="persentase-row-2-container-1">
+                                <p class="tahun-persentase">2021</p>
+                                <p class="ton-persentase">31,13</p>
+                                <p class="amount-persentase">Jt Ton</p>
+                            </div>
+                            <div class="persentase-row-2-container-1">
+                                <p class="tahun-persentase">2022</p>
+                                <p class="ton-persentase">19,45</p>
+                                <p class="amount-persentase">Jt Ton</p>
+                            </div>
+                        </div>
+                        <div class="persentase-row-3">
+                            <p>Angka tersebut menunjukan penurunan sebanyak <span
+                                    style="font-family: 'Plus Jakarta Sans'; font-weight: 700;">37,52%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grafik-area">
+                    <img src="presentase-sampah.png" alt="">
+                </div>
+            </div>
+            <a class="next-btn-2" href="#section3">Next</a>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="hero3">
+            <div class="title-3-area">
+                <h1>SAMPAH PLASTIK DI INDONESIA</h1>
+            </div>
+            <div class="data-plastik-area">
+                <div class="content-plastik-1">
+                    <p>Kantong plastik adalah jenis sampah yang sulit terurai oleh proses alam (non biodegradable) dan
+                        merupakan salah satu pencemar <span>xenobiotik</span> (pencemar yang tidak dikenal oleh sistem
+                        biologis di
+                        lingkungan mengakibatkan senyawa pencemar terakumulasi di alam).</p>
+
+                    <p>Betapa bahayanya sampah yang sulit terurai ini jika terus menerus bertambah dan membanjiri negara
+                        kita tercinta ini, pentingnya peran kita sebagai anak muda untuk saling bahu membahu untuk
+                        menghentikan pencemaran ini.</p>
+                </div>
+                <div class="content-plastik-2">
+                    <div class="source-plastik">
+                        <p>*Berdasarkan Data dari Making Oceans Plastic Free (2017)</p>
+                    </div>
+                    <div class="data-plastik-container">
+                        <div class="data-plastik-1">
+                            <div class="persentase-plastik-row-1">
+                                <p>Jumlah Kantong Plastik
+                                    Digunakan Di Indonesia</p>
+                            </div>
+                            <div class="persentase-plastik-row-2">
+                                <div class="persentase-plastik-row-2-container-1">
+                                    <p class="milliar-plastik-persentase">182</p>
+                                    <p class="amount-plastik-persentase">Milliar</p>
+                                </div>
+                            </div>
+                            <div class="persentase-plastik-row-3">
+                                <p>Bobot Totalnya Mencapai 1.278.900 Ton Per Tahunnya<span
+                                        style="font-family: 'Plus Jakarta Sans'; font-weight: 700;"> 37,52%</span></p>
+                            </div>
+                        </div>
+                        <div class="data-plastik-2">
+                            <div class="persentase-plastik-2-row-1">
+                                <p>Menurut catatan World Population Review, Indonesia berada di peringkat kelima sebagai
+                                    negara penyumbang sampah plastik ke laut.</p>
+                            </div>
+                            <div class="persentase-plastik-2-row-2">
+                                <div class="persentase-plastik-2-row-2-container-1">
+                                    <p class="ton-2-persentase">56</p>
+                                    <p class="amount-2-persentase">Ribu Ton</p>
+                                </div>
+                            </div>
+                            <div class="persentase-plastik-2-row-3">
+                                <p>sampah plastik di laut Indonesia pada Tahun 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="back-btn" href="#">See how to contribute</a>
+        </div>
+    </section>
+</body>
+
+</html>
