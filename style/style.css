@@ -4,9 +4,10 @@
 
     font-family: 'Dela Gothic One', cursive;
     font-family: 'Playfair Display', serif;
-    font-family: 'Plus Jakarta Sans', sans-serif
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+/* Make the Hero not Scrollable and only Fit Screen */
 .hero {
     width: 100vw;
     height: 100vh;
@@ -19,11 +20,13 @@
     align-items: center;
 }
 
+/* make the Container for the Content */
 .container-hero {
     width: 95%;
     height: 90%;
     background: #000000;
     border-radius: 32px;
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
@@ -36,6 +39,7 @@
     background-repeat: no-repeat;
 }
 
+/* make the Text Header (Clean Earth) */
 .header {
     padding: 100px;
     color: white;
@@ -74,6 +78,7 @@
     margin-top: 150px;
 }
 
+/* Make the Button so when we Press it pops the Menu */
 .hover-me {
     display: flex;
     flex-direction: column;
@@ -91,7 +96,7 @@
 }
 
 .hover-me:hover .hover-img {
-    margin-top: 15px;
+    transform: translateY(10px);
 
     transition: 0.2s;
     cursor: pointer;
@@ -104,13 +109,234 @@
     transition: 0.2s;
 }
 
+.hover-me.active {
+    opacity: 0%;
+
+    transition: 0.5s;
+}
+
 .hero span {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2em;
     margin-top: 15px;
 }
 
+/* make a Copyright */
+.hero .copy {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.container-menu {
+    visibility: hidden;
+    opacity: 0%;
+
+    width: 100%;
+    height: 50%;
+    margin-top: -90px;
+    
+    transition: 0.3s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* make the menu when Active pops up */
+.container-menu.active {
+    visibility: visible;
+
+    opacity: 100%;
+
+    transition: 0.3s;
+}
+
+.info {
+    visibility: hidden;
+    opacity: 0%;
+
+    width: 300px;
+    height: 60%;
+    background: #020202;
+    color: #ffffff;
+    border-radius: 22px;
+    border: 3px solid #ffffff;
+    margin-right: 50px;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s;
+}
+
+.info.active {
+    visibility: visible;
+    opacity: 100%;
+
+    margin-bottom: 200px;
+}
+
+.info-title {
+    font-family: 'Dela Gothic One', cursive;
+
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.info-sub {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0 25px;
+    margin-top: 15px;
+
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.con {
+    visibility: hidden;
+    opacity: 0%;
+
+    width: 300px;
+    height: 60%;
+    background: #020202;
+    color: #ffffff;
+    border-radius: 22px;
+    border: 3px solid #ffffff;
+    margin-right: 50px;
+    margin-bottom: -100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1.5s;
+}
+
+.con.active {
+    visibility: visible;
+    opacity: 100%;
+
+    margin-bottom: 0px;
+}
+
+.con-title {
+    font-family: 'Dela Gothic One', cursive;
+
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.con-sub {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0 25px;
+    margin-top: 15px;
+
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.ben {
+    visibility: hidden;
+    opacity: 0%;
+
+    width: 300px;
+    height: 60%;
+    background: #020202;
+    color: #ffffff;
+    border-radius: 22px;
+    border: 3px solid #ffffff;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 2s;
+}
+
+.ben.active {
+    visibility: visible;
+    opacity: 100%;
+
+    margin-bottom: 200px;
+}
+
+.ben-title {
+    font-family: 'Dela Gothic One', cursive;
+
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.ben-sub {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0 25px;
+    margin-top: 15px;
+
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.info:hover {
+    cursor: pointer;
+    scale: 105%;
+    background: #000000c6;
+
+    transition: 0.3s;
+}
+
+.con:hover {
+    cursor: pointer;
+    scale: 105%;
+    background: #000000c6;
+
+
+    transition: 0.3s;
+}
+
+.ben:hover {
+    cursor: pointer;
+    scale: 105%;
+    background: #000000c6;
+
+    transition: 0.3s;
+}
+
+/* Responsive CSS 1084px */
+@media screen and (max-width:1084px) {
+    .info {
+        width: 250px;
+    }
+
+    .info-title {
+        font-size: 1.5em;
+    }
+
+    .con {
+        width: 250px;
+    }
+
+    .con-title {
+        font-size: 1.5em;
+    }
+
+    .ben {
+        width: 250px;
+    }
+
+    .ben-title {
+        font-size: 1.5em;
+    }
+}
+
+/* Responsive CSS 900px */
 @media screen and (max-width:900px) {
 
     .header {
@@ -126,7 +352,7 @@
     }
 
     .hover-me {
-        font-size: 0.8em;
+        font-size: 1.4em;
     }
 
     .hover-img {
@@ -136,24 +362,117 @@
     .header p {
         margin-top: 150px;
     }
+
+    .container-menu {
+        height: 50%;
+    }
+
+    .info {
+        width: 200px;
+        height: 50%;
+    }
+
+    .info-title {
+        font-size: 1.3em;
+    }
+
+    .info-sub {
+        font-size: 0.6em;
+    }
+
+    .con {
+        width: 200px;
+        height: 50%;
+    }
+
+    .con-title {
+        font-size: 1.3em;
+    }
+
+    .con-sub {
+        font-size: 0.6em;
+    }
+
+    .ben {
+        width: 200px;
+        height: 50%;
+    }
+
+    .ben-title {
+        font-size: 1.3em;
+    }
+
+    .ben-sub {
+        font-size: 0.6em;
+    }
 }
 
+/* Responsive CSS 768px */
+@media screen and (max-width:768px) {
+    .header {
+        padding: 100px;
+    }
+
+    .container-menu {
+        flex-direction: column;
+
+        height: 80%;
+    }
+
+    .hover-me.active {
+        display: none;
+    }
+
+    .info {
+        margin: 0;
+        width: 300px;
+        height: 25%;
+    }
+
+    .info.active {
+        margin-bottom: 15px;
+    }
+
+    .con {
+        margin: 0;
+        width: 300px;
+        height: 25%;
+    }
+
+    .con.active {
+        margin: 0;
+        margin-bottom: 15px;
+
+    }
+
+    .ben {
+        margin: 0;
+        width: 300px;
+        height: 25%;
+    }
+
+    .ben.active {
+        margin: 0;
+    }
+}
+
+/* Responsive CSS 706px */
 @media screen and (max-width:706px) {
 
     .header {
-        padding: 200px 0px;
+        padding: 100px 0px;
     }
 
     .header-1 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
     .header-2 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .hover-me {
-        font-size: 0.8em;
+        font-size: 1.4em;
     }
 
     .hover-img {
@@ -162,5 +481,20 @@
 
     .header p {
         margin-top: 200px;
+    }
+}
+
+/* Responsive CSS 400px */
+@media screen and (max-width : 400px) {
+    .header-1 {
+        font-size: 2.5em;
+    }
+    
+    .header-2 {
+        font-size: 1em;
+    }
+
+    .hover-me {
+        font-size: 1em;
     }
 }
