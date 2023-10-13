@@ -476,11 +476,12 @@ span {
     text-decoration: none;
     position: absolute;
     top: 90%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
 }
 
 .next-btn-1:hover {
     background-color: rgba(0, 0, 0, 0.642);
+    font-size: 25px;
 }
 
 .next-btn-2 {
@@ -495,11 +496,12 @@ span {
     text-decoration: none;
     position: absolute;
     top: 190%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
 }
 
 .next-btn-2:hover {
     background-color: rgba(0, 0, 0, 0.642);
+    font-size: 25px;
 }
 
 .back-btn {
@@ -520,6 +522,7 @@ span {
 
 .back-btn:hover {
     background-color: rgba(0, 0, 0, 0.642);
+    font-size: 25px;
 }
 
 @media screen and (max-width: 600px) {
