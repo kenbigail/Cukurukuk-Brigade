@@ -552,6 +552,7 @@ span {
 .back-btn:hover {
     background-color: rgba(0, 0, 0, 0.642);
     scale: 110%;
+    cursor: pointer;
 
     transition: 0.3s;
 }

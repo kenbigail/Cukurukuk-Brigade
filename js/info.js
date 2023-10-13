@@ -1,4 +1,5 @@
 const hello_arr = ['INFORMATION'];
+const next = document.getElementById('next')
 
 
 window.onload = function () {
@@ -19,3 +20,7 @@ window.onload = function () {
 
     displayNextHello();
 };
+
+next.addEventListener('click', () => {
+    window.location.href = 'con.html'
+})
