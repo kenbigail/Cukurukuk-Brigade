@@ -11,6 +11,36 @@ body {
     background: black;
 }
 
+.span-hello-container {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+}
+
+.span-hello {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Dela Gothic One', cursive;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.span-hello-container {
+    transform: translatey(0);
+    transition: all 1s ease-in-out;
+}
+
+.translate-animation {
+    transform: translatey(-1000px);
+}
+
 .hero1 {
     height: 100vh;
     width: 100%;
@@ -518,11 +548,15 @@ span {
     top: 292%;
     border: 1px solid white;
     transition: background-color 0.3s ease;
+    transition: 0.3s;
 }
 
 .back-btn:hover {
     background-color: rgba(0, 0, 0, 0.642);
     font-size: 25px;
+    scale: 110%;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 600px) {
