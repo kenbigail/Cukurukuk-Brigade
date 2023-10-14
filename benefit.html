@@ -143,43 +143,477 @@
     text-align: justify;
 
 }
-.btn-benefit{
-    width: 100%;
-    background-color: #020202; 
-    color: white;
-     border: 3px white solid; 
-     font-size: 1.5rem;
-     border-radius: 20px; 
-     padding: 20px;
-     cursor: pointer;
 
-}
-.btn-home{
-    margin-top: 10%;
-    width: 80%;
-    height: fit-content;
-    display: flex;
-justify-content: center;
-margin-bottom: 10%;
-}
-.btn-home a{
-width: 70%;
-display: flex;
-justify-content: center;
-text-decoration: none;
 
+.btn-home {
+    margin-top: 20px
 }
-.btn-home button{
-    width: 50%;
-    font-size: 1.4rem;
-    background-color: #020202;
-    color: white;
+
+.btn-home a {
     text-decoration: none;
-    padding:15px;
-    border-radius: 20px;
-    cursor: pointer;
-    border: 3px white solid;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    font-family: "Plus Jakarta Sans";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px 20px;
+    
 }
+
+.btn-home a span.top {
+    pointer-events: none;
+    position: absolute
+}
+
+.btn-home a span.top .letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translate3d(0, -12px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1),transform 0.3s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.btn-home a span.base {
+    pointer-events: none
+}
+
+.btn-home a span.base .letter {
+    display: inline-block;
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms,transform 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms
+}
+
+.btn-home a:hover span.base .letter {
+    transform: translate3d(0, 12px, 0);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+
+.btn-home a:hover span.base .letter:nth-child(1) {
+    transition-delay: 0s
+}
+
+.btn-home a:hover span.base .letter:nth-child(2) {
+    transition-delay: 0.01s
+}
+
+.btn-home a:hover span.base .letter:nth-child(3) {
+    transition-delay: 0.02s
+}
+
+.btn-home a:hover span.base .letter:nth-child(4) {
+    transition-delay: 0.03s
+}
+
+.btn-home a:hover span.base .letter:nth-child(5) {
+    transition-delay: 0.04s
+}
+
+.btn-home a:hover span.base .letter:nth-child(6) {
+    transition-delay: 0.05s
+}
+
+.btn-home a:hover span.base .letter:nth-child(7) {
+    transition-delay: 0.06s
+}
+
+.btn-home a:hover span.base .letter:nth-child(8) {
+    transition-delay: 0.07s
+}
+
+.btn-home a:hover span.base .letter:nth-child(9) {
+    transition-delay: 0.08s
+}
+
+.btn-home a:hover span.base .letter:nth-child(10) {
+    transition-delay: 0.09s
+}
+
+.btn-home a:hover span.base .letter:nth-child(11) {
+    transition-delay: 0.1s
+}
+
+.btn-home a:hover span.base .letter:nth-child(12) {
+    transition-delay: 0.11s
+}
+
+.btn-home a:hover span.base .letter:nth-child(13) {
+    transition-delay: 0.12s
+}
+
+.btn-home a:hover span.base .letter:nth-child(14) {
+    transition-delay: 0.13s
+}
+
+.btn-home a:hover span.base .letter:nth-child(15) {
+    transition-delay: 0.14s
+}
+
+.btn-home a:hover span.base .letter:nth-child(16) {
+    transition-delay: 0.15s
+}
+
+.btn-home a:hover span.base .letter:nth-child(17) {
+    transition-delay: 0.16s
+}
+
+.btn-home a:hover span.base .letter:nth-child(18) {
+    transition-delay: 0.17s
+}
+
+.btn-home a:hover span.base .letter:nth-child(19) {
+    transition-delay: 0.18s
+}
+
+.btn-home a:hover span.base .letter:nth-child(20) {
+    transition-delay: 0.19s
+}
+.btn-home a:hover span.base .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-home a:hover span.base .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-home a:hover span.base .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-home a:hover span.base .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+
+.btn-home a:hover span.top .letter {
+    transform: translate3d(0, 0px, 0);
+    opacity: 1;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+
+.btn-home a:hover span.top .letter:nth-child(1) {
+    transition-delay: 0.01s
+}
+
+.btn-home a:hover span.top .letter:nth-child(2) {
+    transition-delay: 0.02s
+}
+
+.btn-home a:hover span.top .letter:nth-child(3) {
+    transition-delay: 0.03s
+}
+
+.btn-home a:hover span.top .letter:nth-child(4) {
+    transition-delay: 0.04s
+}
+
+.btn-home a:hover span.top .letter:nth-child(5) {
+    transition-delay: 0.05s
+}
+
+.btn-home a:hover span.top .letter:nth-child(6) {
+    transition-delay: 0.06s
+}
+
+.btn-home a:hover span.top .letter:nth-child(7) {
+    transition-delay: 0.07s
+}
+
+.btn-home a:hover span.top .letter:nth-child(8) {
+    transition-delay: 0.08s
+}
+
+.btn-home a:hover span.top .letter:nth-child(9) {
+    transition-delay: 0.09s
+}
+
+.btn-home a:hover span.top .letter:nth-child(10) {
+    transition-delay: 0.1s
+}
+
+.btn-home a:hover span.top .letter:nth-child(11) {
+    transition-delay: 0.11s
+}
+
+.btn-home a:hover span.top .letter:nth-child(12) {
+    transition-delay: 0.12s
+}
+
+.btn-home a:hover span.top .letter:nth-child(13) {
+    transition-delay: 0.13s
+}
+
+.btn-home a:hover span.top .letter:nth-child(14) {
+    transition-delay: 0.14s
+}
+
+.btn-home a:hover span.top .letter:nth-child(15) {
+    transition-delay: 0.15s
+}
+
+.btn-home a:hover span.top .letter:nth-child(16) {
+    transition-delay: 0.16s
+}
+
+.btn-home a:hover span.top .letter:nth-child(17) {
+    transition-delay: 0.17s
+}
+
+.btn-home a:hover span.top .letter:nth-child(18) {
+    transition-delay: 0.18s
+}
+
+.btn-home a:hover span.top .letter:nth-child(19) {
+    transition-delay: 0.19s
+}
+
+.btn-home a:hover span.top .letter:nth-child(20) {
+    transition-delay: 0.2s
+}
+.btn-home a:hover span.top .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-home a:hover span.top .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-home a:hover span.top .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-home a:hover span.top .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+.btn-benefit {
+    margin-top: 20px
+}
+
+.btn-benefit a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    font-family: "Plus Jakarta Sans";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px 20px;
+    
+}
+
+.btn-benefit a span.top {
+    pointer-events: none;
+    position: absolute
+}
+
+.btn-benefit a span.top .letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translate3d(0, -12px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1),transform 0.3s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.btn-benefit a span.base {
+    pointer-events: none
+}
+
+.btn-benefit a span.base .letter {
+    display: inline-block;
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms,transform 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms
+}
+
+.btn-benefit a:hover span.base .letter {
+    transform: translate3d(0, 12px, 0);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(1) {
+    transition-delay: 0s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(2) {
+    transition-delay: 0.01s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(3) {
+    transition-delay: 0.02s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(4) {
+    transition-delay: 0.03s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(5) {
+    transition-delay: 0.04s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(6) {
+    transition-delay: 0.05s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(7) {
+    transition-delay: 0.06s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(8) {
+    transition-delay: 0.07s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(9) {
+    transition-delay: 0.08s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(10) {
+    transition-delay: 0.09s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(11) {
+    transition-delay: 0.1s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(12) {
+    transition-delay: 0.11s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(13) {
+    transition-delay: 0.12s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(14) {
+    transition-delay: 0.13s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(15) {
+    transition-delay: 0.14s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(16) {
+    transition-delay: 0.15s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(17) {
+    transition-delay: 0.16s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(18) {
+    transition-delay: 0.17s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(19) {
+    transition-delay: 0.18s
+}
+
+.btn-benefit a:hover span.base .letter:nth-child(20) {
+    transition-delay: 0.19s
+}
+.btn-benefit a:hover span.base .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-benefit a:hover span.base .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-benefit a:hover span.base .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-benefit a:hover span.base .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+
+.btn-benefit a:hover span.top .letter {
+    transform: translate3d(0, 0px, 0);
+    opacity: 1;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(1) {
+    transition-delay: 0.01s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(2) {
+    transition-delay: 0.02s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(3) {
+    transition-delay: 0.03s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(4) {
+    transition-delay: 0.04s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(5) {
+    transition-delay: 0.05s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(6) {
+    transition-delay: 0.06s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(7) {
+    transition-delay: 0.07s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(8) {
+    transition-delay: 0.08s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(9) {
+    transition-delay: 0.09s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(10) {
+    transition-delay: 0.1s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(11) {
+    transition-delay: 0.11s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(12) {
+    transition-delay: 0.12s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(13) {
+    transition-delay: 0.13s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(14) {
+    transition-delay: 0.14s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(15) {
+    transition-delay: 0.15s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(16) {
+    transition-delay: 0.16s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(17) {
+    transition-delay: 0.17s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(18) {
+    transition-delay: 0.18s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(19) {
+    transition-delay: 0.19s
+}
+
+.btn-benefit a:hover span.top .letter:nth-child(20) {
+    transition-delay: 0.2s
+}
+.btn-benefit a:hover span.top .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-benefit a:hover span.top .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-benefit a:hover span.top .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-benefit a:hover span.top .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+
 
 
 @media (max-width: 950px) {
@@ -208,6 +642,7 @@ text-decoration: none;
       }
     }
     </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="benefits">
@@ -221,47 +656,213 @@ text-decoration: none;
     </div>
     <div class="benefit-con">
         <div class="info-exam">
-            <div class="img-exam1"></div>
-            <div class="con-text">
-                <h2>Keberlanjutan Lingkungan</h2>
-                <h3>Dengan mengadopsi praktik ramah lingkungan seperti mengurangi limbah, menghemat energi, dan
+            <div data-aos="fade-right" data-aos-duration="1800" class="img-exam1"></div>
+            <div data-aos="fade-left" data-aos-duration="2300" class="con-text">
+                <h2 data-aos="fade-up" data-aos-duration="1900">Keberlanjutan Lingkungan</h2>
+                <h3 data-aos="fade-up" data-aos-duration="2300">Dengan mengadopsi praktik ramah lingkungan seperti mengurangi limbah, menghemat energi, dan
                     menggunakan sumber daya yang berkelanjutan, kita berkontribusi pada keberlanjutan jangka panjang
                     planet ini. Ini membantu menjaga kesehatan ekosistem.</h3>
-                <a href="#" style="width: 90%;"><button class="btn-benefit" >Learn More</button></a>
+                
+                    <div data-aos="fade-left" data-aos-duration="2600" class="btn-benefit">
+                        <a href="/benefit.html" rel="internal">
+                            <span class="top">
+                                <span class="letter">L</span>
+                                <span class="letter">e</span>
+                                <span class="letter">a</span>
+                                <span class="letter">r</span>
+                                <span class="letter">n</span>
+                                <span class="letter">&nbsp;</span>
+                                <span class="letter">m</span>
+                                <span class="letter">o</span>
+                                <span class="letter">r</span>
+                                <span class="letter">e</span>
+                                <span class="letter">?</span>
+                                
+                            </span>
+                            <span class="base">
+                                <span class="letter">L</span>
+                                <span class="letter">e</span>
+                                <span class="letter">a</span>
+                                <span class="letter">r</span>
+                                <span class="letter">n</span>
+                                <span class="letter">&nbsp;</span>
+                                <span class="letter">m</span>
+                                <span class="letter">o</span>
+                                <span class="letter">r</span>
+                                <span class="letter">e</span>
+                                <span class="letter">?</span>
+                                
+                            </span></a>
+                    </div>
             </div>
         </div>
         <div class="info-exam">
 
-            <div class="con-text">
-                <h2>Peningkatan Kesehatan</h2>
-                <h3>Banyak praktik yang bertanggung jawab terhadap lingkungan, seperti mengurangi polusi udara dan menggunakan sumber energi yang lebih bersih, memiliki manfaat kesehatan langsung bagi manusia. Menghirup udara yang lebih bersih, minum air yang tidak terkontaminasi.</h3>
-                    <a href="#" style="width: 90%;"><button class="btn-benefit" >Learn More</button></a>
+            <div data-aos="fade-right" data-aos-duration="2400" class="con-text">
+                <h2 data-aos="fade-up" data-aos-duration="1900">Peningkatan Kesehatan</h2>
+                <h3 data-aos="fade-up" data-aos-duration="2400">Banyak praktik yang bertanggung jawab terhadap lingkungan, seperti mengurangi polusi udara dan menggunakan sumber energi yang lebih bersih, memiliki manfaat kesehatan langsung bagi manusia. Menghirup udara yang lebih bersih, minum air yang tidak terkontaminasi.</h3>
+                <div data-aos="fade-right" data-aos-duration="2800" class="btn-benefit">
+                    <a href="/benefit.html" rel="internal">
+                        <span class="top">
+                            <span class="letter">L</span>
+                            <span class="letter">e</span>
+                            <span class="letter">a</span>
+                            <span class="letter">r</span>
+                            <span class="letter">n</span>
+                            <span class="letter">&nbsp;</span>
+                            <span class="letter">m</span>
+                            <span class="letter">o</span>
+                            <span class="letter">r</span>
+                            <span class="letter">e</span>
+                            <span class="letter">?</span>
+                            
+                        </span>
+                        <span class="base">
+                            <span class="letter">L</span>
+                            <span class="letter">e</span>
+                            <span class="letter">a</span>
+                            <span class="letter">r</span>
+                            <span class="letter">n</span>
+                            <span class="letter">&nbsp;</span>
+                            <span class="letter">m</span>
+                            <span class="letter">o</span>
+                            <span class="letter">r</span>
+                            <span class="letter">e</span>
+                            <span class="letter">?</span>
+                            
+                        </span></a>
+                </div>
             </div>
-            <div class="img-exam2"></div>
+            <div data-aos="fade-left" data-aos-duration="2100" class="img-exam2"></div>
         </div>
         <div class="info-exam">
-            <div class="img-exam3"></div>
-            <div class="con-text">
-                <h2>Penghematan Ekonomi</h2>
-                <h3>Praktik yang ramah lingkungan seringkali menghasilkan penghematan biaya. Misalnya, mengurangi konsumsi energi dan penggunaan air dapat mengurangi tagihan utilitas. Selain itu, praktik berkelanjutan dalam pertanian dapat mengarah pada metode pertanian yang lebih efisien dan menguntungkan.</h3>
-                    <a href="#" style="width: 90%;"><button class="btn-benefit" >Learn More</button></a>
+            <div data-aos="fade-right" data-aos-duration="2200" class="img-exam3"></div>
+            <div data-aos="fade-left" data-aos-duration="2500" class="con-text">
+                <h2 data-aos="fade-up" data-aos-duration="2000">Penghematan Ekonomi</h2>
+                <h3 data-aos="fade-up" data-aos-duration="2500">Praktik yang ramah lingkungan seringkali menghasilkan penghematan biaya. Misalnya, mengurangi konsumsi energi dan penggunaan air dapat mengurangi tagihan utilitas. Selain itu, praktik berkelanjutan dalam pertanian dapat mengarah pada metode pertanian yang lebih efisien dan menguntungkan.</h3>
+                <div data-aos="fade-left" data-aos-duration="3000" class="btn-benefit">
+                    <a href="/benefit.html" rel="internal">
+                        <span class="top">
+                            <span class="letter">L</span>
+                            <span class="letter">e</span>
+                            <span class="letter">a</span>
+                            <span class="letter">r</span>
+                            <span class="letter">n</span>
+                            <span class="letter">&nbsp;</span>
+                            <span class="letter">m</span>
+                            <span class="letter">o</span>
+                            <span class="letter">r</span>
+                            <span class="letter">e</span>
+                            <span class="letter">?</span>
+                            
+                        </span>
+                        <span class="base">
+                            <span class="letter">L</span>
+                            <span class="letter">e</span>
+                            <span class="letter">a</span>
+                            <span class="letter">r</span>
+                            <span class="letter">n</span>
+                            <span class="letter">&nbsp;</span>
+                            <span class="letter">m</span>
+                            <span class="letter">o</span>
+                            <span class="letter">r</span>
+                            <span class="letter">e</span>
+                            <span class="letter">?</span>
+                            
+                        </span></a>
+                </div>
             </div>
         </div>
         <div class="info-exam">
-            <div class="con-text">
-                <h2>Kerjasama Masyarakat dan Global</h2>
-                <h3>Bekerja untuk melindungi Bumi membina rasa tanggung jawab global dan komunitas. Tantangan lingkungan seperti perubahan iklim memerlukan kerjasama internasional, dan mengambil tindakan pada tingkat lokal berkontribusi pada upaya ini.</h3>
-                    <a href="#" style="width: 90%;"><button class="btn-benefit" >Learn More</button></a>
+            <div data-aos="fade-right" data-aos-duration="2600" class="con-text">
+                <h2 data-aos="fade-up" data-aos-duration="2100">Kerjasama Masyarakat dan Global</h2>
+                <h3 data-aos="fade-up" data-aos-duration="2600">Bekerja untuk melindungi Bumi membina rasa tanggung jawab global dan komunitas. Tantangan lingkungan seperti perubahan iklim memerlukan kerjasama internasional, dan mengambil tindakan pada tingkat lokal berkontribusi pada upaya ini.</h3>
+                <div data-aos="fade-right" data-aos-duration="3200" class="btn-benefit">
+                    <a href="/benefit.html" rel="internal">
+                        <span class="top">
+                            <span class="letter">L</span>
+                            <span class="letter">e</span>
+                            <span class="letter">a</span>
+                            <span class="letter">r</span>
+                            <span class="letter">n</span>
+                            <span class="letter">&nbsp;</span>
+                            <span class="letter">m</span>
+                            <span class="letter">o</span>
+                            <span class="letter">r</span>
+                            <span class="letter">e</span>
+                            <span class="letter">?</span>
+                            
+                        </span>
+                        <span class="base">
+                            <span class="letter">L</span>
+                            <span class="letter">e</span>
+                            <span class="letter">a</span>
+                            <span class="letter">r</span>
+                            <span class="letter">n</span>
+                            <span class="letter">&nbsp;</span>
+                            <span class="letter">m</span>
+                            <span class="letter">o</span>
+                            <span class="letter">r</span>
+                            <span class="letter">e</span>
+                            <span class="letter">?</span>
+                            
+                        </span></a>
+                </div>
             </div>
-            <div class="img-exam4"></div>
+            <div data-aos="fade-left" data-aos-duration="3000" class="img-exam4"></div>
 
         </div>
-        <div class="btn-home">
-            <a href=""><button>Back to Home Page</button></a>
+        <img data-aos="fade-down" data-aos-duration="2200" src="/arrow.contibute.svg" alt="" style="margin-top: 5%; margin-bottom: 1%; scale: 0.7;">
+        <div data-aos="fade-up" data-aos-duration="2500" style="margin-bottom: 5%;" class="btn-home">
+            <a href="/benefit.html" rel="internal">
+                <span class="top">
+                    <span class="letter">B</span>
+                    <span class="letter">a</span>
+                    <span class="letter">c</span>
+                    <span class="letter">k</span>
+                    <span class="letter">&nbsp;</span>
+                    <span class="letter">t</span>
+                    <span class="letter">o</span>
+                    <span class="letter">&nbsp;</span>
+                    <span class="letter">H</span>
+                    <span class="letter">o</span>
+                    <span class="letter">m</span>
+                    <span class="letter">e</span>
+                    <span class="letter">&nbsp;</span>
+                    <span class="letter">P</span>
+                    <span class="letter">a</span>
+                    <span class="letter">g</span>
+                    <span class="letter">e</span>
+                    
+                </span>
+                <span class="base">
+                    <span class="letter">B</span>
+                    <span class="letter">a</span>
+                    <span class="letter">c</span>
+                    <span class="letter">k</span>
+                    <span class="letter">&nbsp;</span>
+                    <span class="letter">t</span>
+                    <span class="letter">o</span>
+                    <span class="letter">&nbsp;</span>
+                    <span class="letter">H</span>
+                    <span class="letter">o</span>
+                    <span class="letter">m</span>
+                    <span class="letter">e</span>
+                    <span class="letter">&nbsp;</span>
+                    <span class="letter">P</span>
+                    <span class="letter">a</span>
+                    <span class="letter">g</span>
+                    <span class="letter">e</span>
+                    
+                </span></a>
         </div>
 
     </div>
 
 </body>
 <script src="https://kit.fontawesome.com/f75e1b2fdb.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>

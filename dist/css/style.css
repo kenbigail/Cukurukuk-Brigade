@@ -182,13 +182,125 @@
 }
 .img-app{
     width: 30%;
+    height: 40vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 0;
     margin-bottom: 10%;
 }
-.img-app h2{
+.img-in-exam1{
+    width: 100%;
+    height: 80%;
+    background-image: url("/imgapp-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease-in-out;
+}
+.img-in-exam1:hover{
+    filter: brightness(60%);
+}
+.img-in-exam1:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam2{
+    width: 100%;
+    height: 80%;
+    background-image: url("/imgapp2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-in-exam2:hover{
+    filter: brightness(60%);
+}
+.img-in-exam2:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam3{
+    width: 100%;
+    height: 80%;
+    background-image: url("/imgapp3.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-in-exam3:hover{
+    filter: brightness(60%);
+}
+.img-in-exam3:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam4{
+    width: 100%;
+    height: 80%;
+    background-image: url("/atm-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-in-exam4:hover{
+    filter: brightness(60%);
+}
+.img-in-exam4:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam5{
+    width: 100%;
+    height: 80%;
+    background-image: url("/atm-2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-in-exam5:hover{
+    filter: brightness(60%);
+}
+.img-in-exam5:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam6{
+    width: 100%;
+    height: 80%;
+    background-image: url("/atm-3.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-in-exam6:hover{
+    filter: brightness(60%);
+}
+.img-in-exam6:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.learn{
+    font-family: "Dela Gothic One";
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    opacity:0;
+    scale: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.exam-img h2{
     width: 100%;
     text-decoration: underline;
     font-family: Dela Gothic One;
@@ -230,6 +342,241 @@ text-decoration: none;
     cursor: pointer;
     border: 3px white solid;
 }
+.btn-bene {
+    margin-top: 20px
+}
+
+.btn-bene a {
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    font-family: "Plus Jakarta Sans";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px 20px;
+    
+}
+
+.btn-bene a span.top {
+    pointer-events: none;
+    position: absolute
+}
+
+.btn-bene a span.top .letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translate3d(0, -12px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1),transform 0.3s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.btn-bene a span.base {
+    pointer-events: none
+}
+
+.btn-bene a span.base .letter {
+    display: inline-block;
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms,transform 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms
+}
+
+.btn-bene a:hover span.base .letter {
+    transform: translate3d(0, 12px, 0);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+
+.btn-bene a:hover span.base .letter:nth-child(1) {
+    transition-delay: 0s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(2) {
+    transition-delay: 0.01s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(3) {
+    transition-delay: 0.02s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(4) {
+    transition-delay: 0.03s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(5) {
+    transition-delay: 0.04s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(6) {
+    transition-delay: 0.05s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(7) {
+    transition-delay: 0.06s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(8) {
+    transition-delay: 0.07s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(9) {
+    transition-delay: 0.08s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(10) {
+    transition-delay: 0.09s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(11) {
+    transition-delay: 0.1s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(12) {
+    transition-delay: 0.11s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(13) {
+    transition-delay: 0.12s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(14) {
+    transition-delay: 0.13s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(15) {
+    transition-delay: 0.14s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(16) {
+    transition-delay: 0.15s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(17) {
+    transition-delay: 0.16s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(18) {
+    transition-delay: 0.17s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(19) {
+    transition-delay: 0.18s
+}
+
+.btn-bene a:hover span.base .letter:nth-child(20) {
+    transition-delay: 0.19s
+}
+.btn-bene a:hover span.base .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-bene a:hover span.base .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-bene a:hover span.base .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-bene a:hover span.base .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+
+.btn-bene a:hover span.top .letter {
+    transform: translate3d(0, 0px, 0);
+    opacity: 1;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+
+.btn-bene a:hover span.top .letter:nth-child(1) {
+    transition-delay: 0.01s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(2) {
+    transition-delay: 0.02s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(3) {
+    transition-delay: 0.03s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(4) {
+    transition-delay: 0.04s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(5) {
+    transition-delay: 0.05s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(6) {
+    transition-delay: 0.06s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(7) {
+    transition-delay: 0.07s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(8) {
+    transition-delay: 0.08s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(9) {
+    transition-delay: 0.09s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(10) {
+    transition-delay: 0.1s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(11) {
+    transition-delay: 0.11s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(12) {
+    transition-delay: 0.12s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(13) {
+    transition-delay: 0.13s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(14) {
+    transition-delay: 0.14s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(15) {
+    transition-delay: 0.15s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(16) {
+    transition-delay: 0.16s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(17) {
+    transition-delay: 0.17s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(18) {
+    transition-delay: 0.18s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(19) {
+    transition-delay: 0.19s
+}
+
+.btn-bene a:hover span.top .letter:nth-child(20) {
+    transition-delay: 0.2s
+}
+.btn-bene a:hover span.top .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-bene a:hover span.top .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-bene a:hover span.top .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-bene a:hover span.top .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+
+
 
 
 
