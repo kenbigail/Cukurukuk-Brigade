@@ -3,7 +3,7 @@ const container = document.getElementById('menu')
 const info = document.getElementById('info')
 const con = document.getElementById('con')
 const ben = document.getElementById('ben')
-const hello_arr = ['Welcome too,', 'Earth Saver ©'];
+const hello_arr = ['Welcome to,', 'Earth Saver'];
 
 show.addEventListener('click', () => {
     show.classList.toggle('active')

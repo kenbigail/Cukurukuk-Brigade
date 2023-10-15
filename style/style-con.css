@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.contributes{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    background-image: url("/contribute.bg.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.contri-text{
+    width: 80%;
+ 
+}
+.contri-text h1{
+    font-size: 4rem;
+    font-family: "Dela Gothic One";
+}
+.contri-text h2{
+    font-size: 2rem;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    margin-top: 10px;
+}
+.do-contri{
+    width: 100vw;
+    background-color: #020202;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.do-title {
+    width: 80%;
+    margin-top: 8%;
+    font-size: 2.5rem;
+    font-family: "Dela Gothic One";
+    display: flex;
+    text-align: center;
+ 
+}
+.do-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+ 
+}
+.do-t h2:nth-child(1){
+    font-size: 2.5rem;
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+.do-t h2:nth-child(2){
+    font-size: 2.5rem;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: italic;
+}
+.con-contri {
+    margin-top: 10%;
+    width: 75%;
+    height: fit-content;
+}
+.con-contri h2{
+    font-size: 2.5rem;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    margin-top: 8%;
+}
+.con-in{
+    width: 100%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    text-align: justify;
+ 
+}
+.p-in{
+    width: 45%;
+    font-size: 1.6rem;
+    margin-top: 2%;
+    font-family: Plus Jakarta Sans;
+    font-weight: 300;
+}
+.img-in{
+    width: 45%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/do-1.png");
+}
+.img-in1{
+    width: 45%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/do-2.png");
+}
+.img-in2{
+    width: 45%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/do-3.png");
+}
+.exam-tech{
+    width: 100%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    text-align: justify;
+ 
+ 
+ 
+}
+.info-tech{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.info-tech h1{
+    font-size: 2rem;
+    font-family: "Playfair Display";
+}
+.p-tech{
+    width: 90%;
+    text-align: justify;
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+    font-size: 1.6rem;
+    font-family: Plus Jakarta Sans;
+}
+.jus-tech{
+    width: 90%;
+}
+.img-tech1{
+    width: 45%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/exam-1.png");
+    margin-top: 7%;
+}.img-tech2{
+    width: 45%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/exam-2.png");
+    margin-top: 7%;
+}
+.exam-text {
+    width: 100%;
+ 
+}
+.exam-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 4%;
+    flex-wrap: wrap;
+ 
+}
+.img-app{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 10%;
+}
+.img-in-exam1{
+    width: 100%;
+    height: 80%;
+    background-image: url("/imgapp-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease-in-out;
+}
+.img-in-exam1:hover{
+    filter: brightness(60%);
+}
+.img-in-exam1:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam2{
+    width: 100%;
+    height: 80%;
+    background-image: url("/imgapp2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.img-in-exam2:hover{
+    filter: brightness(60%);
+}
+.img-in-exam2:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam3{
+    width: 100%;
+    height: 80%;
+    background-image: url("/imgapp3.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-in-exam3:hover{
+    filter: brightness(60%);
+}
+.img-in-exam3:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam4{
+    width: 100%;
+    height: 80%;
+    background-image: url("/atm-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.img-in-exam4:hover{
+    filter: brightness(60%);
+}
+.img-in-exam4:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam5{
+    width: 100%;
+    height: 80%;
+    background-image: url("/atm-2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.img-in-exam5:hover{
+    filter: brightness(60%);
+}
+.img-in-exam5:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.img-in-exam6{
+    width: 100%;
+    height: 80%;
+    background-image: url("/atm-3.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.img-in-exam6:hover{
+    filter: brightness(60%);
+}
+.img-in-exam6:hover .learn{
+    opacity: 1;
+    scale: 1;
+}
+.learn{
+    font-family: "Dela Gothic One";
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    opacity:0;
+    scale: 0;
+    transition: 0.3s ease-in-out;
+}
+ 
+.exam-img h2{
+    width: 100%;
+    text-decoration: underline;
+    font-family: Dela Gothic One;
+    font-size: 2.2rem;
+ 
+}
+ 
+.p-out{
+    width: 100%;
+    margin-left: 6%;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    font-family:Plus Jakarta Sans ;
+ 
+}
+.btn-bene{
+    margin-top: 10%;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+justify-content: center;
+margin-bottom: 10%;
+}
+.btn-bene a{
+width: 70%;
+display: flex;
+justify-content: center;
+text-decoration: none;
+ 
+}
+.btn-bene button{
+    width: 50%;
+    font-size: 1.4rem;
+    background-color: #020202;
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 3px white solid;
+}
+.btn-bene {
+    margin-top: 20px
+}
+ 
+.btn-bene a {
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    font-family: "Plus Jakarta Sans";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px 20px;
+ 
+}
+ 
+.btn-bene a span.top {
+    pointer-events: none;
+    position: absolute
+}
+ 
+.btn-bene a span.top .letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translate3d(0, -12px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1),transform 0.3s cubic-bezier(0.19, 1, 0.22, 1)
+}
+ 
+.btn-bene a span.base {
+    pointer-events: none
+}
+ 
+.btn-bene a span.base .letter {
+    display: inline-block;
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+    transition: opacity 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms,transform 0.3s cubic-bezier(0.19, 1, 0.22, 1) 350ms
+}
+ 
+.btn-bene a:hover span.base .letter {
+    transform: translate3d(0, 12px, 0);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(1) {
+    transition-delay: 0s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(2) {
+    transition-delay: 0.01s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(3) {
+    transition-delay: 0.02s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(4) {
+    transition-delay: 0.03s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(5) {
+    transition-delay: 0.04s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(6) {
+    transition-delay: 0.05s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(7) {
+    transition-delay: 0.06s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(8) {
+    transition-delay: 0.07s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(9) {
+    transition-delay: 0.08s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(10) {
+    transition-delay: 0.09s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(11) {
+    transition-delay: 0.1s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(12) {
+    transition-delay: 0.11s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(13) {
+    transition-delay: 0.12s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(14) {
+    transition-delay: 0.13s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(15) {
+    transition-delay: 0.14s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(16) {
+    transition-delay: 0.15s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(17) {
+    transition-delay: 0.16s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(18) {
+    transition-delay: 0.17s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(19) {
+    transition-delay: 0.18s
+}
+ 
+.btn-bene a:hover span.base .letter:nth-child(20) {
+    transition-delay: 0.19s
+}
+.btn-bene a:hover span.base .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-bene a:hover span.base .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-bene a:hover span.base .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-bene a:hover span.base .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+ 
+.btn-bene a:hover span.top .letter {
+    transform: translate3d(0, 0px, 0);
+    opacity: 1;
+    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms,opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1) 350ms
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(1) {
+    transition-delay: 0.01s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(2) {
+    transition-delay: 0.02s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(3) {
+    transition-delay: 0.03s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(4) {
+    transition-delay: 0.04s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(5) {
+    transition-delay: 0.05s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(6) {
+    transition-delay: 0.06s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(7) {
+    transition-delay: 0.07s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(8) {
+    transition-delay: 0.08s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(9) {
+    transition-delay: 0.09s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(10) {
+    transition-delay: 0.1s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(11) {
+    transition-delay: 0.11s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(12) {
+    transition-delay: 0.12s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(13) {
+    transition-delay: 0.13s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(14) {
+    transition-delay: 0.14s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(15) {
+    transition-delay: 0.15s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(16) {
+    transition-delay: 0.16s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(17) {
+    transition-delay: 0.17s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(18) {
+    transition-delay: 0.18s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(19) {
+    transition-delay: 0.19s
+}
+ 
+.btn-bene a:hover span.top .letter:nth-child(20) {
+    transition-delay: 0.2s
+}
+.btn-bene a:hover span.top .letter:nth-child(21) {
+    transition-delay: 0.20s
+}
+.btn-bene a:hover span.top .letter:nth-child(22) {
+    transition-delay: 0.21s
+}
+.btn-bene a:hover span.top .letter:nth-child(23) {
+    transition-delay: 0.22s
+}
+.btn-bene a:hover span.top .letter:nth-child(24) {
+    transition-delay: 0.23s
+}
+ 
+ 
+ 
+ 
+ 
+@media (max-width: 950px) {
+ 
+ 
+    .p-in{
+        width: 100%;
+    }
+    .img-in{
+        width: 100%;
+        margin: 20px;
+    }
+    .img-in1{
+        width: 100%;
+        margin: 20px;
+    }
+    .img-in2{
+        width: 100%;
+        margin: 20px;
+    }
+    .exam-tech{
+        flex: 1 1 100%;
+    }
+    .info-tech{
+        width: 100%;
+    }
+    .p-tech{
+        width: 100%;
+    }
+    .jus-tech{
+        width: 100%;
+    }
+    .img-tech1{
+        width: 100%;
+        margin: 20px;
+ 
+    }
+    .img-tech2{
+        width: 100%;
+        margin: 20px;
+ 
+    }
+    .exam-img{
+        flex: 1 1 1 100%;
+    }
+    .img-app{
+    width: 100%;
+    }
+    .do-title{
+        font-size: 1.8rem;
+    }
+    .btn-bene{
+        width: 100%;
+    }
+ 
+}
