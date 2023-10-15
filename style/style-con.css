@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     background-color: aliceblue;
-    background-image: url("/contribute.bg.png");
+    background-image: url("/assets/contribute.bg.png");
     background-size: cover;
     text-align: center;
     color: white;
@@ -101,21 +101,21 @@
     height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/do-1.png");
+    background-image: url("/assets/do-1.png");
 }
 .img-in1{
     width: 45%;
     height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/do-2.png");
+    background-image: url("/assets/do-2.png");
 }
 .img-in2{
     width: 45%;
     height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/do-3.png");
+    background-image: url("/assets/do-3.png");
 }
 .exam-tech{
     width: 100%;
@@ -156,14 +156,14 @@
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/exam-1.png");
+    background-image: url("/assets/exam-1.png");
     margin-top: 7%;
 }.img-tech2{
     width: 45%;
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/exam-2.png");
+    background-image: url("/assets/exam-2.png");
     margin-top: 7%;
 }
 .exam-text {
@@ -192,7 +192,7 @@
 .img-in-exam1{
     width: 100%;
     height: 80%;
-    background-image: url("/imgapp-1.png");
+    background-image: url("/assets/imgapp-1.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -209,7 +209,7 @@
 .img-in-exam2{
     width: 100%;
     height: 80%;
-    background-image: url("/imgapp2.png");
+    background-image: url("/assets/imgapp2.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -226,7 +226,7 @@
 .img-in-exam3{
     width: 100%;
     height: 80%;
-    background-image: url("/imgapp3.png");
+    background-image: url("/assets/imgapp3.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -242,7 +242,7 @@
 .img-in-exam4{
     width: 100%;
     height: 80%;
-    background-image: url("/atm-1.png");
+    background-image: url("/assets/atm-1.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -259,7 +259,7 @@
 .img-in-exam5{
     width: 100%;
     height: 80%;
-    background-image: url("/atm-2.png");
+    background-image: url("/assets/atm-2.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -276,7 +276,7 @@
 .img-in-exam6{
     width: 100%;
     height: 80%;
-    background-image: url("/atm-3.png");
+    background-image: url("/assets/atm-3.png");
     background-size: cover;
     display: flex;
     justify-content: center;

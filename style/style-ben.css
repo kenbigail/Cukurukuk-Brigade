@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     background-color: aliceblue;
-    background-image: url("/benefits-bg.png");
+    background-image: url("/assets/benefits-bg.png");
     background-size: cover;
     color: white;
 }
@@ -58,7 +58,7 @@
 
 .benefit-con {
     width: 100vw;
-    background-image: url("/bg-benefit.png");
+    background-image: url("/assets/bg-benefit.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -83,7 +83,7 @@
 .img-exam1 {
     width: 40%;
     height: 750px;
-    background-image: url("/tobias-weinhold-hXPomXrpUP0-unsplash.jpg");
+    background-image: url("/assets/tobias-weinhold-hXPomXrpUP0-unsplash.jpg");
     background-size: cover;
     border: 5px white solid;
     margin: 20px;
@@ -92,7 +92,7 @@
 .img-exam2 {
     width: 40%;
     height: 750px;
-    background-image: url("/bene-2.png");
+    background-image: url("/assets/bene-2.png");
     background-size: cover;
     border: 5px white solid;
     margin: 20px;
@@ -101,7 +101,7 @@
 .img-exam3 {
     width: 40%;
     height: 750px;
-    background-image: url("/bene-3.png");
+    background-image: url("/assets/bene-3.png");
     background-size: cover;
     border: 5px white solid;
     margin: 20px;
@@ -110,7 +110,7 @@
 .img-exam4 {
     width: 40%;
     height: 750px;
-    background-image: url("/bene-4.png");
+    background-image: url("/assets/bene-4.png");
     background-size: cover;
     border: 5px white solid;
     margin: 20px;
