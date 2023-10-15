@@ -55,22 +55,22 @@
     align-items: center;
     flex-direction: row;
     width: 80%;
+    font-size: 2rem;
+
  
 }
 .do-t h2:nth-child(1){
-    font-size: 2.5rem;
     font-family: "Playfair Display";
     font-weight: 400;
 }
 .do-t h2:nth-child(2){
-    font-size: 2.5rem;
     font-family: "Playfair Display";
     font-weight: 700;
     font-style: italic;
 }
 .con-contri {
     margin-top: 10%;
-    width: 75%;
+    width: 75vw;
     height: fit-content;
 }
 .con-contri h2{
@@ -583,7 +583,13 @@ text-decoration: none;
  
 @media (max-width: 950px) {
  
- 
+ .con-in{
+    margin: 0;
+ }
+ .exam-tech{
+    margin: 0;
+ }
+
     .p-in{
         width: 100%;
     }
@@ -630,12 +636,31 @@ text-decoration: none;
     .do-title{
         font-size: 1.8rem;
     }
+    .do-t{
+        font-size: 1.6rem
+    }
     .btn-bene{
         width: 100%;
     }
-    
+    .con-contri h2{
+        font-size: 2.5rem;
+    }
+    .info-tech h1{
+        font-size: 1.7rem;
+    }
+    .jus-tech {
+        font-size: 1.4rem;
+    }
+    .p-out{
+        font-size: 1.2rem;
+
+        margin: 0;
+        margin-top: 5%;
+        
+    }
  
 }
+
 
 @media screen and (max-width: 790px) {
     .contri-text h1 {
@@ -644,5 +669,91 @@ text-decoration: none;
 
     .contri-text h2 {
         font-size: 1.5rem;
+    }
+    .do-title{
+        font-size: 1.5rem;
+    }
+    .do-t{
+        font-size: 1.3rem
+    }
+    .btn-bene a {
+    font-size: 18px;
+ 
+}
+}
+@media screen and (max-width: 605px) {
+    .contri-text h1 {
+        font-size: 3rem;
+    }
+
+    .contri-text h2 {
+        font-size: 1.5rem;
+    }
+    .do-title{
+        font-size: 1.3rem;
+    }
+    .do-t{
+        font-size: 1.1rem
+    }
+    .con-contri h2{
+        font-size: 2.2rem;
+    }
+    .jus-tech {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 528px) {
+    .contri-text h1 {
+        font-size: 3rem;
+    }
+
+    .contri-text h2 {
+        font-size: 1.5rem;
+    }
+    .do-title{
+        font-size: 1.1rem;
+    }
+    .do-t{
+        font-size: 0.9rem
+    }
+    .con-contri h2{
+        font-size: 1.8rem;
+    }
+    .p-in{
+        font-size: 1rem
+    }
+    .jus-tech {
+        font-size: 1.1rem;
+    }
+    .btn-bene a {
+    font-size: 14px;
+ 
+}
+.p-out{
+    font-size: 1.1rem
+}
+}
+@media screen and (max-width: 420px) {
+    .contri-text h1 {
+        font-size: 3rem;
+    }
+
+    .contri-text h2 {
+        font-size: 1.5rem;
+    }
+    .do-title{
+        font-size: 0.9rem;
+    }
+    .do-t{
+        font-size: 0.7rem
+    }
+     .con-contri h2{
+        font-size: 1.7rem;
+    }
+    .exam-text h3{
+        font-size: 1.5rem;
+    }
+    .btn-bene a{
+        font-size: 12px;
     }
 }
