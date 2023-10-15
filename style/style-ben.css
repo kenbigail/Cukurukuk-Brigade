@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .benefits {
@@ -668,5 +669,25 @@
 
     .btn-home {
         width: 100%;
+    }
+
+    .contri-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .contri-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .info-exam h2 {
+        font-size: 2rem;
+    }
+
+    .info-exam h3 {
+        font-size: 1.5rem;
+    }
+
+    .letter {
+        font-size: 0.8rem;
     }
 }
