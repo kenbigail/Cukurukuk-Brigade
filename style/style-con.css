@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
  
 .contributes{
@@ -634,4 +635,14 @@ text-decoration: none;
     }
     
  
+}
+
+@media screen and (max-width: 790px) {
+    .contri-text h1 {
+        font-size: 3rem;
+    }
+
+    .contri-text h2 {
+        font-size: 1.5rem;
+    }
 }
