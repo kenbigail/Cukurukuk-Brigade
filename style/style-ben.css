@@ -83,6 +83,7 @@
 
 .contri-text {
     width: 80%;
+    height: 25%;
     margin-top: 20%;
 }
 
@@ -117,9 +118,7 @@
     align-items: center;
     flex: 1;
     margin-top: 10%;
-
-
-
+    overflow-x: hidden;
 }
 
 .img-exam1 {
