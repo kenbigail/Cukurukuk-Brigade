@@ -33,7 +33,9 @@
 }
 .do-contri{
     width: 100vw;
-    background-color: #020202;
+    background-image: url(/assets/bg.con.main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     display: flex;
     justify-content: start;
