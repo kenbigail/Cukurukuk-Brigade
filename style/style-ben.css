@@ -149,7 +149,11 @@
 
 
 .btn-home {
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-home a {
@@ -669,6 +673,7 @@
 
     .btn-home {
         width: 100%;
+        margin-bottom: 13%;
     }
 
     .contri-text h1 {
