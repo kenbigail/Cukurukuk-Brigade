@@ -1,5 +1,6 @@
 const hello_arr = ['BENEFITS'];
 const next = document.getElementById('next')
+const slider = document.getElementById('slider')
 
 
 window.onload = function () {
@@ -20,3 +21,17 @@ window.onload = function () {
 
     displayNextHello();
 };
+
+function scrollToPercentage(percentage) {
+    const windowHeight = window.innerHeight;
+    const scrollTo = (percentage / 100) * windowHeight;
+
+    window.scroll({
+        top: scrollTo,
+        behavior: "smooth",
+    });
+}
+
+slider.addEventListener("click", () => {
+    scrollToPercentage(100);
+});

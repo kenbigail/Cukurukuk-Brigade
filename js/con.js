@@ -1,4 +1,5 @@
 const hello_arr = ['CONTRIBUTE'];
+const slider = document.getElementById('slider')
 const next = document.getElementById('next')
 
 
@@ -20,3 +21,17 @@ window.onload = function () {
 
     displayNextHello();
 };
+
+function scrollToPercentage(percentage) {
+    const windowHeight = window.innerHeight;
+    const scrollTo = (percentage / 100) * windowHeight;
+
+    window.scroll({
+        top: scrollTo,
+        behavior: "smooth",
+    });
+}
+
+slider.addEventListener("click", () => {
+    scrollToPercentage(100);
+});
