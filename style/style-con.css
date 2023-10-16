@@ -32,7 +32,7 @@
 }
 
 .translate-animation {
-    transform: translatey(-1000px);
+    transform: translatey(-100%);
 }
  
 .contributes{
@@ -62,9 +62,22 @@
     font-weight: 500;
     margin-top: 10px;
 }
+
+.contributes img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contributes img:hover {
+    scale: 110%;
+    transition: 0.2s;
+}
+
 .do-contri{
     width: 100vw;
-    background-color: #020202;
+    background-image: url(/assets/bg.con.main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     display: flex;
     justify-content: start;
@@ -233,6 +246,7 @@
 }
 .img-in-exam1:hover{
     filter: brightness(60%);
+    cursor: pointer;
 }
 .img-in-exam1:hover .learn{
     opacity: 1;
@@ -250,6 +264,7 @@
 }
 .img-in-exam2:hover{
     filter: brightness(60%);
+    cursor: pointer;
 }
 .img-in-exam2:hover .learn{
     opacity: 1;
@@ -266,6 +281,7 @@
 }
 .img-in-exam3:hover{
     filter: brightness(60%);
+    cursor: pointer;
 }
 .img-in-exam3:hover .learn{
     opacity: 1;
@@ -283,6 +299,7 @@
 }
 .img-in-exam4:hover{
     filter: brightness(60%);
+    cursor: pointer;
 }
 .img-in-exam4:hover .learn{
     opacity: 1;
@@ -300,6 +317,7 @@
 }
 .img-in-exam5:hover{
     filter: brightness(60%);
+    cursor: pointer;
 }
 .img-in-exam5:hover .learn{
     opacity: 1;
@@ -317,6 +335,7 @@
 }
 .img-in-exam6:hover{
     filter: brightness(60%);
+    cursor: pointer;
 }
 .img-in-exam6:hover .learn{
     opacity: 1;
@@ -348,34 +367,10 @@
     font-family:Plus Jakarta Sans ;
  
 }
-.btn-bene{
-    margin-top: 10%;
-    width: 80%;
-    height: fit-content;
-    display: flex;
-justify-content: center;
-margin-bottom: 10%;
-}
-.btn-bene a{
-width: 70%;
-display: flex;
-justify-content: center;
-text-decoration: none;
- 
-}
-.btn-bene button{
-    width: 50%;
-    font-size: 1.4rem;
-    background-color: #020202;
-    color: white;
-    text-decoration: none;
-    padding:15px;
-    border-radius: 20px;
-    cursor: pointer;
-    border: 3px white solid;
-}
+
 .btn-bene {
-    margin-top: 20px
+    margin-bottom: 3%;
+    padding-top: 15px;
 }
  
 .btn-bene a {
@@ -386,6 +381,8 @@ text-decoration: none;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 15px 30px 20px;
+    text-decoration: none;
+    
  
 }
  

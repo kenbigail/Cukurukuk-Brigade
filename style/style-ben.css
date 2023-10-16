@@ -32,7 +32,7 @@
 }
 
 .translate-animation {
-    transform: translatey(-1000px);
+    transform: translatey(-100%);
 }
 
 .benefits {
@@ -50,6 +50,16 @@
 
 .benefits .contri-text {
     text-align: center;
+}
+
+.benefits img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.benefits img:hover {
+    scale: 110%;
+    transition: 0.2s;
 }
 
 .benefits h1 {
