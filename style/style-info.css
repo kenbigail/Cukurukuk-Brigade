@@ -38,7 +38,7 @@ body {
 }
 
 .translate-animation {
-    transform: translatey(-1000px);
+    transform: translatey(-100%);
 }
 
 .hero1 {
